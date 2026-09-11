@@ -15,7 +15,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.1](https://github.com/kanup4m/morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.0.0-dev.2](https://github.com/kanup4m/morphe-patches/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
 <details open>
 <summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -32,7 +32,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 </details>
 
 <details open>
-<summary>📦 MacroFactor Workouts&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary>📦 MacroFactor Workouts&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -43,7 +43,24 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [MacroFactor Workouts Premium](#macrofactor-workouts-premium) | Unlocks premium by serving a fabricated RevenueCat customer with active entitlements until 2027. No root required. |  |
+| [MacroFactor Workouts Spoof Installer](#macrofactor-workouts-spoof-installer) | Reports Play Store as installer and the original certificate hash to the app. No root required. |  |
 | [MacroFactor Workouts Spoof Signature](#macrofactor-workouts-spoof-signature) | Spoofs the original signing certificate so signature checks pass. |  |
+
+</details>
+
+<details open>
+<summary>📦 Seven&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 9.25.15-handheld |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Seven PairIP Bypass](#seven-pairip-bypass) | Disables PairIP license paywall and error shutdown so the app runs sideloaded. No root required. |  |
+| [Seven Premium](#seven-premium) | Unlocks 7 Club premium by forcing the membership check to true. No root required. |  |
 
 </details>
 

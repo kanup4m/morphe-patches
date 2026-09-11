@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "patches": [
     {
       "name": "Example Patch",
@@ -66,6 +66,33 @@
       "options": []
     },
     {
+      "name": "MacroFactor Workouts Spoof Installer",
+      "description": "Reports Play Store as installer and the original certificate hash to the app. No root required.",
+      "default": true,
+      "category": null,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.sbs.train",
+          "name": "MacroFactor Workouts",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#000000",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.2.5",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "MacroFactor Workouts Spoof Signature",
       "description": "Spoofs the original signing certificate so signature checks pass.",
       "default": true,
@@ -82,6 +109,60 @@
           "targets": [
             {
               "version": "1.2.5",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Seven PairIP Bypass",
+      "description": "Disables PairIP license paywall and error shutdown so the app runs sideloaded. No root required.",
+      "default": true,
+      "category": null,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "se.perigee.android.seven",
+          "name": "Seven",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#6B21A8",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "9.25.15-handheld",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Seven Premium",
+      "description": "Unlocks 7 Club premium by forcing the membership check to true. No root required.",
+      "default": true,
+      "category": null,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "se.perigee.android.seven",
+          "name": "Seven",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#6B21A8",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "9.25.15-handheld",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
