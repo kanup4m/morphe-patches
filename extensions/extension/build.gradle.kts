@@ -3,5 +3,5 @@ extension {
 }
 
 android {
-    namespace = "app.template.extension"
+    namespace = "app.kanup4m.extension"
 }
